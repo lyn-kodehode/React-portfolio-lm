@@ -7,6 +7,7 @@ import { useTranslate } from "../../hooks/useTranslate";
 
 export default function NavBar() {
   const { language } = useTranslate();
+  const t = useTranslate();
   const {
     isNavVisible,
     setNavVisible,
@@ -99,7 +100,8 @@ export default function NavBar() {
                 href={link.href}
                 style={{ scrollBehavior: "smooth" }}
               >
-                {language === "no" ? link.no : link.en}
+                {/* {language === "no" ? link.no : link.en} */}
+                {t(link)}
               </a>
             </li>
           ))}
@@ -151,7 +153,8 @@ export default function NavBar() {
                   className="block py-3 px-4 text-right text-lg font-primary font-light hover:-translate-y-px hover:font-light hover:opacity-70 transition-all duration-300"
                   style={{ scrollBehavior: "smooth" }}
                 >
-                  {language === "no" ? link.no : link.en}
+                  {/* {language === "no" ? link.no : link.en} */}
+                  {t(link)}
                 </a>
               </li>
             ))}
