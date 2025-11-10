@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@theme {
+  /* Lightmode colors */
+  --color-bg-light: #f5f5f5;
+  --color-text-light: #2c2c2c;
+  --color-text-light-hover: #000000;
+
+  /* Darkmode colors */
+  --color-bg-dark: #2c2c2c;
+  --color-text-dark: #e4e4e4;
+  --color-text-dark-hover: #ffffff;
+
+  /* Button colors */
+  --color-github: #007b83;
+  --color-github-hover: #005e63;
+  --color-live: #c2185b;
+  --color-live-hover: #9e134a;
+  --color-contact: #7b4db0;
+  --color-contact-hover: #693b99;
+  --color-linkedin: #2563eb;
+  --color-linkedin-hover: #1d4ed8;
+
+  /* Darkmode button colors */
+  --color-github-dark: #a8dadc;
+  --color-github-dark-hover: #7ab7b8;
+  --color-live-dark: #ffc1cc;
+  --color-live-dark-hover: #e79ba8;
+  --color-contact-dark: #b39cd0;
+  --color-contact-dark-hover: #9b7abd;
+  --color-linkedin-dark: #60a5fa;
+  --color-linkedin-hover-dark: #3b82f6;
+
+  /* Fonts */
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Nunito", sans-serif;
+  --font-menu: "Roboto Condensed", sans-serif;
+}
+
+/* GLOBAL THEME CLASSES */
+/* Light mode (default) */
+:root {
+  --bg: var(--color-bg-light);
+  --text: var(--color-text-light);
+  --text-hover: var(--color-text-light-hover);
+  --github: var(--color-github);
+  --github-hover: var(--color-github-hover);
+  --live: var(--color-live);
+  --live-hover: var(--color-live-hover);
+  --contact: var(--color-contact);
+  --contact-hover: var(--color-contact-hover);
+  --linkedin: var(--color-linkedin);
+  --linkedin-hover: var(--color-linkedin-hover);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--color-bg-dark);
+    --text: var(--color-text-dark);
+    --text-hover: var(--color-text-dark-hover);
+    --github: var(--color-github-dark);
+    --github-hover: var(--color-github-dark-hover);
+    --live: var(--color-live-dark);
+    --live-hover: var(--color-live-dark-hover);
+    --contact: var(--color-contact-dark);
+    --contact-hover: var(--color-contact-dark-hover);
+    --linkedin: var(--color-linkedin-dark);
+    --linkedin-hover: var(--color-linkedin-hover-dark);
+  }
+}
+
+.light {
+  --bg: var(--color-bg-light);
+  --text: var(--color-text-light);
+  --text-hover: var(--color-text-light-hover);
+  --github: var(--color-github);
+  --github-hover: var(--color-github-hover);
+  --live: var(--color-live);
+  --live-hover: var(--color-live-hover);
+  --contact: var(--color-contact);
+  --contact-hover: var(--color-contact-hover);
+  --linkedin: var(--color-linkedin);
+  --linkedin-hover: var(--color-linkedin-hover);
+}
+
+/* Dark mode */
+.dark {
+  --bg: var(--color-bg-dark);
+  --text: var(--color-text-dark);
+  --text-hover: var(--color-text-dark-hover);
+  --github: var(--color-github-dark);
+  --github-hover: var(--color-github-dark-hover);
+  --live: var(--color-live-dark);
+  --live-hover: var(--color-live-dark-hover);
+  --contact: var(--color-contact-dark);
+  --contact-hover: var(--color-contact-dark-hover);
+  --linkedin: var(--color-linkedin-dark);
+  --linkedin-hover: var(--color-linkedin-hover-dark);
+}
+
+/* global classes applies to body */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: var(--font-primary);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+body {
+  font-family: var(--font-secondary);
+}
