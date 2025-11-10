@@ -14,7 +14,7 @@ export default function ThemeWatcher() {
     if (faviconLink) {
       // Dark mode = light logo, Light mode = dark logo
       faviconLink.href =
-        theme === "dark" ? "/favicon-light.svg" : "/favicon.svg";
+        theme === "dark" ? "./favicon-light.svg" : "./favicon.svg";
     }
   }, [theme]);
 

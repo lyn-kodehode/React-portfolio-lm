@@ -40,8 +40,8 @@ export const content = {
       },
     },
     photo: {
-      color: "/assets/colored-profile-pic.png",
-      bw: "/assets/black-white-profile-pic.png",
+      color: "./assets/colored-profile-pic.png",
+      bw: "./assets/black-white-profile-pic.png",
       alt: "Lyn Michaels' profile photo",
     },
     paragraphs: [

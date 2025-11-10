@@ -9,8 +9,8 @@ export const projects = [
     github: "https://github.com/lyn-kodehode/React-shopfora",
     live: "https://lyn-kodehode.github.io/React-shopfora/",
     image: {
-      color: "/assets/shopfora1-color.png",
-      bw: "/assets/shopfora1-black-and-white.png",
+      color: "./assets/shopfora1-color.png",
+      bw: "./assets/shopfora1-black-and-white.png",
     },
   },
   {
@@ -24,8 +24,8 @@ export const projects = [
     github: "https://github.com/lyn-kodehode/React-personal-dashboard",
     live: "https://lyn-kodehode.github.io/React-personal-dashboard/",
     image: {
-      color: "/assets/dashboard-color.png",
-      bw: "/assets/dashboard-black-and-white.png",
+      color: "./assets/dashboard-color.png",
+      bw: "./assets/dashboard-black-and-white.png",
     },
   },
   {
@@ -39,8 +39,8 @@ export const projects = [
     github: "https://github.com/lyn-kodehode/React-memory-game",
     live: "https://lyn-kodehode.github.io/React-memory-game/",
     image: {
-      color: "/assets/mem-game-color.png",
-      bw: "/assets/mem-game-black-and-white.png",
+      color: "./assets/mem-game-color.png",
+      bw: "./assets/mem-game-black-and-white.png",
     },
   },
   {
@@ -54,8 +54,8 @@ export const projects = [
     github: "https://github.com/lyn-kodehode/lawn-rescue",
     live: "https://lyn-kodehode.github.io/lawn-rescue/",
     image: {
-      color: "/assets/lawnrescue-color.png",
-      bw: "/assets/lawnrescue-black-and-white.png",
+      color: "./assets/lawnrescue-color.png",
+      bw: "./assets/lawnrescue-black-and-white.png",
     },
   },
   {
@@ -69,8 +69,8 @@ export const projects = [
     github: "https://github.com/lyn-kodehode/recipe-manager",
     live: "https://lyn-kodehode.github.io/recipe-manager/",
     image: {
-      color: "/assets/recipemanager-color.png",
-      bw: "/assets/recipemanager-black-and-white.png",
+      color: "./assets/recipemanager-color.png",
+      bw: "./assets/recipemanager-black-and-white.png",
     },
   },
   {
@@ -84,8 +84,8 @@ export const projects = [
     github: "https://github.com/lyn-kodehode/just-keep-swimming",
     live: "https://lyn-kodehode.github.io/just-keep-swimming/",
     image: {
-      color: "/assets/justkeepswimming-color.png",
-      bw: "/assets/justkeepswimming-black-and-white.png",
+      color: "./assets/justkeepswimming-color.png",
+      bw: "./assets/justkeepswimming-black-and-white.png",
     },
   },
   {
@@ -99,8 +99,8 @@ export const projects = [
     github: "https://github.com/lyn-kodehode/tick-tock-go",
     live: "https://lyn-kodehode.github.io/tick-tock-go/",
     image: {
-      color: "/assets/ticktockgo-color.png",
-      bw: "/assets/ticktockgo-black-and-white.png",
+      color: "./assets/ticktockgo-color.png",
+      bw: "./assets/ticktockgo-black-and-white.png",
     },
   },
   {
@@ -114,8 +114,8 @@ export const projects = [
     github: "https://github.com/lyn-kodehode/Craftsvilla-project",
     live: "https://lyn-kodehode.github.io/Craftsvilla-project/",
     image: {
-      color: "/assets/craftsvilla-color.png",
-      bw: "/assets/craftsvilla-black-and-white.png",
+      color: "./assets/craftsvilla-color.png",
+      bw: "./assets/craftsvilla-black-and-white.png",
     },
   },
 ];
