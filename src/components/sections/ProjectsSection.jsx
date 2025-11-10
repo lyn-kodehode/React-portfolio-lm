@@ -84,7 +84,7 @@ export default function ProjectsSection() {
           {/* projects container */}
           <div
             id="projects-scroll-container"
-            className=" overflow-x-auto scrollbar-hide scroll-smooth py-4 w-full max-w-[90%]"
+            className=" overflow-x-auto scrollbar-hide scroll-smooth py-4 pb-4 w-full max-w-[90%]"
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
             <div className="flex gap-6 md:gap-8 min-w-max space-px-8 md:space-px-12">

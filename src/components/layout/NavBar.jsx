@@ -91,12 +91,13 @@ export default function NavBar() {
           {navLinks.map((link) => (
             <li
               key={link.href}
-              className="font-primary font-extralight text-xl lg:text-2xl whitespace-nowrap"
+              className="font-primary font-light text-xl lg:text-2xl whitespace-nowrap hover:-translate-y-px transition-all duration-300"
             >
               <a
-                // className="hover:opacity-70 transition-opacity"
-                className="hover:-translate-y-0.5 hover:font-light "
+                className="hover:opacity-70 transition-opacity duration-300 "
+                // className="hover:-translate-y-0.5 hover:font-light "
                 href={link.href}
+                style={{ scrollBehavior: "smooth" }}
               >
                 {language === "no" ? link.no : link.en}
               </a>
@@ -111,7 +112,7 @@ export default function NavBar() {
           {/* hamburger icon */}
           <button
             onClick={toggleMenu}
-            className="md:hidden flex flex-col gap-1.5 w-7 h-6 justify-center"
+            className="md:hidden flex flex-col gap-1.5 w-7 h-6 justify-center cursor-pointer"
             aria-label="Toggle menu"
           >
             <span
@@ -147,7 +148,8 @@ export default function NavBar() {
                 <a
                   href={link.href}
                   onClick={handleLinkClick}
-                  className="block py-3 px-4 text-right text-lg font-primary font-extralight hover:-translate-y-px hover:font-light "
+                  className="block py-3 px-4 text-right text-lg font-primary font-light hover:-translate-y-px hover:font-light hover:opacity-70 transition-all duration-300"
+                  style={{ scrollBehavior: "smooth" }}
                 >
                   {language === "no" ? link.no : link.en}
                 </a>

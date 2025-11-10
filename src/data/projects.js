@@ -32,8 +32,8 @@ export const projects = [
     id: 3,
     title: "Memory Game",
     description: {
-      no: "Et klassisk kortmatching-minnespill",
-      en: "A classic card-matching memory game",
+      no: "Et klassisk kortmatching-minnespill med alternativer for kortfarge og grid størrelse",
+      en: "A classic card matching memory game with card suit and grid size options",
     },
 
     github: "https://github.com/lyn-kodehode/React-memory-game",
@@ -47,8 +47,8 @@ export const projects = [
     id: 4,
     title: "Lawn Rescue",
     description: {
-      no: "Plen whack-a-mole - bare ikke slå babyen!",
-      en: "Lawn whack-a-mole - just don't hit the baby!",
+      no: "Plen whack-a-mole - Hjelp ved å slå muldvarper, bare ikke slå babyen!",
+      en: "Lawn whack-a-mole - Help by whacking moles, just don't whack the baby!",
     },
 
     github: "https://github.com/lyn-kodehode/lawn-rescue",
@@ -92,8 +92,8 @@ export const projects = [
     id: 7,
     title: "Tick-Tock-Go!",
     description: {
-      no: "Tic-tac-toe-løp mot forsvinnende brikker",
-      en: "Tic-tac-toe race against vanishing pieces",
+      no: "Tic-tac-toe med en vri - løp mot forsvinnende brikker",
+      en: "Tic-tac-toe with a twist -  race against disappearing pieces",
     },
 
     github: "https://github.com/lyn-kodehode/tick-tock-go",
@@ -107,8 +107,8 @@ export const projects = [
     id: 8,
     title: "Craftsvilla",
     description: {
-      no: "Kunstverkstedplattform for kunstklasser og utstyr",
-      en: "Art workshop platform for art classes and supplies",
+      no: "Nettsted som tilbyr kreative workshops og aktiviteter som fremmer samhold, avslapning og kreativitet.",
+      en: "Website that offers creative workshops and activities that promote togetherness, relaxation, and creativity",
     },
 
     github: "https://github.com/lyn-kodehode/Craftsvilla-project",
